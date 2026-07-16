@@ -1,21 +1,52 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Sobre Gustavo Mendonça De Souza, desenvolvedor Front-end formado em Análise e Desenvolvimento de Sistemas.">
     <title>Sobre mim | Portifolio Gustavomzs</title>
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>%F0%9F%92%BB</text></svg>">
+    <link rel="icon" type="image/png" href="./assets/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/styles.css">
+
+    <meta property="og:type" content="profile">
+    <meta property="og:title" content="Sobre mim | Portifolio Gustavomzs">
+    <meta property="og:description" content="Sobre Gustavo Mendonça De Souza, desenvolvedor Front-end formado em Análise e Desenvolvimento de Sistemas.">
+    <meta property="og:url" content="https://gustavomzs.github.io/portfolio/about.html">
+    <meta property="og:image" content="https://gustavomzs.github.io/portfolio/assets/gatito300.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Sobre mim | Portifolio Gustavomzs">
+    <meta name="twitter:description" content="Sobre Gustavo Mendonça De Souza, desenvolvedor Front-end formado em Análise e Desenvolvimento de Sistemas.">
+    <meta name="twitter:image" content="https://gustavomzs.github.io/portfolio/assets/gatito300.jpg">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Gustavo Mendonça De Souza",
+      "jobTitle": "Desenvolvedor Front-end",
+      "alumniOf": "UNIP",
+      "url": "https://gustavomzs.github.io/portfolio/",
+      "sameAs": [
+        "https://github.com/gustavomzs",
+        "https://instagram.com/gustavomzs",
+        "https://www.linkedin.com/in/gustavomzs/"
+      ]
+    }
+    </script>
 </head>
     <body>
+        <a class="skip-link" href="#conteudo-principal">Pular para o conteúdo</a>
         <header class="cabecalho">
             <nav class="cabecalho__menu">
             <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="index.html#projetos">Projetos</a>
             <a class="cabecalho__menu__link" href="about.html" aria-current="page">Sobre mim</a>
             </nav>
         </header>
-        <main class="apresentacao">
+        <main class="apresentacao" id="conteudo-principal">
             <section class="apresentacao__conteudo">
                 <h1 class="apresentacao__conteudo__titulo">Sobre mim</h1>
                 <p class="apresentacao__conteudo__texto">Graduado em Análise e Desenvolvimento de Sistemas pela
@@ -23,15 +54,21 @@
                     de Front-end. Atualmente estou cursando pós graduação na FIAP em Arquitetura e Desenvolvimento em Java.
                     Sou apaixonado por criar soluções inovadoras e agregar valor aos projetos que participo.
                 </p>
+                <ul class="skills">
+                    <li class="skills__item">Java</li>
+                    <li class="skills__item">JavaScript</li>
+                    <li class="skills__item">HTML5</li>
+                    <li class="skills__item">CSS3</li>
+                </ul>
             </section>
             <div id="container">
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            <img src="./assets/gatito300.jpg" class="flip-card-image" alt="Foto de perfil de Gustavo" loading="lazy"/>
+                            <img src="./assets/gatito300.jpg" class="flip-card-image" width="300" height="338" alt="Foto de perfil de Gustavo" loading="lazy"/>
                         </div>
                         <div class="flip-card-back">
-                            <img src="./assets/verso.jpg" class="flip-card-image" alt="Verso da foto de perfil" loading="lazy"/>
+                            <img src="./assets/verso.jpg" class="flip-card-image" width="300" height="443" alt="Verso da foto de perfil" loading="lazy"/>
                     </div>
                 </div>
                 </div>

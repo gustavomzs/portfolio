@@ -17,8 +17,15 @@
 ├── index.html          # Página inicial (apresentação + projetos)
 ├── about.html          # Página "Sobre mim"
 ├── styles/styles.css   # Folha de estilo única, usada pelas duas páginas
-└── assets/             # Imagens e ícones
+├── assets/              # Imagens e ícones
+└── .github/workflows/  # Deploy automático para o GitHub Pages
 ```
+
+## Deploy
+
+O site é publicado automaticamente no GitHub Pages a cada push na branch `main`
+(veja `.github/workflows/deploy.yml`). É necessário habilitar "GitHub Actions"
+como fonte do Pages em Settings > Pages no repositório.
 
 ## Redes sociais
 
