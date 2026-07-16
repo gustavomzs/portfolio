@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Sobre Gustavo Mendonça De Souza, desenvolvedor Front-end formado em Análise e Desenvolvimento de Sistemas.">
+    <meta name="description" content="Sobre Gustavo Mendonça De Souza, desenvolvedor Java e Front-end formado em Análise e Desenvolvimento de Sistemas, pós-graduando em Arquitetura e Desenvolvimento Java pela FIAP.">
     <title>Sobre mim | Portifolio Gustavomzs</title>
     <link rel="icon" type="image/png" href="./assets/favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,12 +13,12 @@
 
     <meta property="og:type" content="profile">
     <meta property="og:title" content="Sobre mim | Portifolio Gustavomzs">
-    <meta property="og:description" content="Sobre Gustavo Mendonça De Souza, desenvolvedor Front-end formado em Análise e Desenvolvimento de Sistemas.">
+    <meta property="og:description" content="Sobre Gustavo Mendonça De Souza, desenvolvedor Java e Front-end formado em Análise e Desenvolvimento de Sistemas, pós-graduando em Arquitetura e Desenvolvimento Java pela FIAP.">
     <meta property="og:url" content="https://gustavomzs.github.io/portfolio/about.html">
     <meta property="og:image" content="https://gustavomzs.github.io/portfolio/assets/gatito300.jpg">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Sobre mim | Portifolio Gustavomzs">
-    <meta name="twitter:description" content="Sobre Gustavo Mendonça De Souza, desenvolvedor Front-end formado em Análise e Desenvolvimento de Sistemas.">
+    <meta name="twitter:description" content="Sobre Gustavo Mendonça De Souza, desenvolvedor Java e Front-end formado em Análise e Desenvolvimento de Sistemas, pós-graduando em Arquitetura e Desenvolvimento Java pela FIAP.">
     <meta name="twitter:image" content="https://gustavomzs.github.io/portfolio/assets/gatito300.jpg">
 
     <script type="application/ld+json">
@@ -26,8 +26,13 @@
       "@context": "https://schema.org",
       "@type": "Person",
       "name": "Gustavo Mendonça De Souza",
-      "jobTitle": "Desenvolvedor Front-end",
-      "alumniOf": "UNIP",
+      "jobTitle": "Desenvolvedor Java e Front-end",
+      "alumniOf": [
+        { "@type": "CollegeOrUniversity", "name": "UNIP" },
+        { "@type": "CollegeOrUniversity", "name": "FIAP" }
+      ],
+      "knowsLanguage": ["pt-BR", "en"],
+      "knowsAbout": ["Java", "Spring Boot", "SQL", "JavaScript", "HTML", "CSS", "Git", "GitHub"],
       "url": "https://gustavomzs.github.io/portfolio/",
       "sameAs": [
         "https://github.com/gustavomzs",
@@ -50,16 +55,11 @@
             <section class="apresentacao__conteudo">
                 <h1 class="apresentacao__conteudo__titulo">Sobre mim</h1>
                 <p class="apresentacao__conteudo__texto">Graduado em Análise e Desenvolvimento de Sistemas pela
-                    UNIP em 2022. Possuo sólida base em Java, Javascript, HTML e CSS e experiência em desenvolvimento
-                    de Front-end. Atualmente estou cursando pós graduação na FIAP em Arquitetura e Desenvolvimento em Java.
+                    UNIP (2020-2022). Possuo sólida base em Java, Spring Boot, JavaScript, HTML, CSS e SQL, com
+                    experiência em desenvolvimento Front-end e Back-end. Atualmente curso pós-graduação em
+                    Arquitetura e Desenvolvimento Java na FIAP (2025-2026).
                     Sou apaixonado por criar soluções inovadoras e agregar valor aos projetos que participo.
                 </p>
-                <ul class="skills">
-                    <li class="skills__item">Java</li>
-                    <li class="skills__item">JavaScript</li>
-                    <li class="skills__item">HTML5</li>
-                    <li class="skills__item">CSS3</li>
-                </ul>
             </section>
             <div id="container">
                 <div class="flip-card">
@@ -74,6 +74,82 @@
                 </div>
             </div>
         </main>
+
+        <section class="formacao">
+            <h2 class="formacao__titulo">Formação</h2>
+            <div class="formacao__grade">
+                <article class="formacao__item">
+                    <h3 class="formacao__item__titulo">Análise e Desenvolvimento de Sistemas</h3>
+                    <p class="formacao__item__periodo">UNIP · 2020 - 2022</p>
+                    <p class="formacao__item__detalhe">Principais disciplinas: Desenvolvimento de software para internet, Programação orientada a objetos, Engenharia de software, Análise de sistemas orientados a objeto, Banco de dados.</p>
+                </article>
+                <article class="formacao__item">
+                    <h3 class="formacao__item__titulo">Pós-graduação em Arquitetura e Desenvolvimento Java</h3>
+                    <p class="formacao__item__periodo">FIAP · 2025 - 2026</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="cursos">
+            <h2 class="cursos__titulo">Cursos</h2>
+            <ul class="cursos__lista">
+                <li class="cursos__item">Formação Java e Orientação a Objetos — Alura</li>
+                <li class="cursos__item">Lógica de programação: programação com JavaScript — Alura</li>
+                <li class="cursos__item">HTML e CSS: ambientes de desenvolvimento, estrutura de arquivos e tags — Alura</li>
+                <li class="cursos__item">Git e GitHub: compartilhando e colaborando em projetos — Alura</li>
+                <li class="cursos__item">ONE — Oracle Next Education</li>
+                <li class="cursos__item">Inglês — FISK (2012 - 2016)</li>
+            </ul>
+        </section>
+
+        <section class="habilidades">
+            <h2 class="habilidades__titulo">Habilidades</h2>
+            <div class="habilidades__grupo">
+                <h3 class="habilidades__grupo__titulo">Frontend</h3>
+                <ul class="skills">
+                    <li class="skills__item">HTML</li>
+                    <li class="skills__item">CSS</li>
+                    <li class="skills__item">JavaScript</li>
+                </ul>
+            </div>
+            <div class="habilidades__grupo">
+                <h3 class="habilidades__grupo__titulo">Backend</h3>
+                <ul class="skills">
+                    <li class="skills__item">Java</li>
+                    <li class="skills__item">Spring Boot</li>
+                    <li class="skills__item">SQL</li>
+                </ul>
+            </div>
+            <div class="habilidades__grupo">
+                <h3 class="habilidades__grupo__titulo">Controle de versão</h3>
+                <ul class="skills">
+                    <li class="skills__item">Git</li>
+                    <li class="skills__item">GitHub</li>
+                </ul>
+            </div>
+            <div class="habilidades__grupo">
+                <h3 class="habilidades__grupo__titulo">Ferramentas e IDEs</h3>
+                <ul class="skills">
+                    <li class="skills__item">VS Code</li>
+                    <li class="skills__item">IntelliJ</li>
+                </ul>
+            </div>
+            <div class="habilidades__grupo">
+                <h3 class="habilidades__grupo__titulo">Idiomas</h3>
+                <ul class="skills">
+                    <li class="skills__item">Português (Nativo)</li>
+                    <li class="skills__item">Inglês (C1)</li>
+                </ul>
+            </div>
+            <div class="habilidades__grupo">
+                <h3 class="habilidades__grupo__titulo">Comportamental</h3>
+                <ul class="skills">
+                    <li class="skills__item">Trabalho em equipe</li>
+                    <li class="skills__item">Comunicação</li>
+                </ul>
+            </div>
+        </section>
+
         <footer class="rodape">
             <p>Desenvolvido por Gustavo</p>
         </footer>

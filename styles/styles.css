@@ -209,6 +209,66 @@ body{
     .projetos__card__link:hover{
         color: var(--cor-hover);
     }
+    .formacao,
+    .cursos,
+    .habilidades{
+        padding: 0 15% 5%;
+    }
+    .formacao__titulo,
+    .cursos__titulo,
+    .habilidades__titulo{
+        font-family: var(--fonte-primaria);
+        font-size: 1.75rem;
+        margin-bottom: 32px;
+        text-align: center;
+    }
+    .formacao__grade{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 24px;
+    }
+    .formacao__item{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        padding: 24px;
+        border: 3px solid var(--cor-tercearia);
+        border-radius: 12px;
+    }
+    .formacao__item__titulo{
+        font-family: var(--fonte-primaria);
+        font-size: 1.1rem;
+    }
+    .formacao__item__periodo{
+        font-family: var(--fonte-secundaria);
+        font-weight: 600;
+        color: var(--cor-tercearia);
+    }
+    .formacao__item__detalhe{
+        font-family: var(--fonte-secundaria);
+        font-size: 0.95rem;
+    }
+    .cursos__lista{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 16px;
+        list-style: none;
+    }
+    .cursos__item{
+        padding: 16px 20px;
+        border: 2px solid var(--cor-tercearia);
+        border-radius: 8px;
+        font-family: var(--fonte-secundaria);
+        font-size: 0.95rem;
+    }
+    .habilidades__grupo{
+        margin-bottom: 24px;
+    }
+    .habilidades__grupo__titulo{
+        font-family: var(--fonte-primaria);
+        font-size: 1.1rem;
+        margin-bottom: 12px;
+    }
     @media(max-width: 1200px){
         .cabecalho{
             padding: 10% ;
@@ -225,6 +285,11 @@ body{
         }
         .projetos{
             padding: 8% 5%;
+        }
+        .formacao,
+        .cursos,
+        .habilidades{
+            padding: 0 5% 8%;
         }
     }
     #container{
