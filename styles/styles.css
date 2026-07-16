@@ -255,11 +255,28 @@ body{
         list-style: none;
     }
     .cursos__item{
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
         padding: 16px 20px;
         border: 2px solid var(--cor-tercearia);
         border-radius: 8px;
+    }
+    .cursos__item__titulo{
         font-family: var(--fonte-secundaria);
+        font-weight: 600;
         font-size: 0.95rem;
+    }
+    .cursos__item__meta{
+        font-family: var(--fonte-secundaria);
+        font-size: 0.85rem;
+        color: var(--cor-tercearia);
+    }
+    .cursos__item__credencial{
+        font-family: var(--fonte-secundaria);
+        font-size: 0.7rem;
+        opacity: 0.7;
+        word-break: break-all;
     }
     .habilidades__grupo{
         margin-bottom: 24px;
